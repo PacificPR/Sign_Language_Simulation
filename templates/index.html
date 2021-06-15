@@ -1,0 +1,9 @@
+{% extends "base.html" %}  
+{% block title %} MEMEZZ {% endblock %}
+
+{% block content %}
+    <form action="/upload" method="POST" class="form" enctype = "multipart/form-data">
+        <input type = "file" name='file' />
+        <input type = "submit" />
+    </form> 
+{% endblock %}
